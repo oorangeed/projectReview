@@ -3,7 +3,7 @@ import { SERVER_PORT } from './constants/app.constants.js';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World');
 });
 
 app.listen(SERVER_PORT, () => {
